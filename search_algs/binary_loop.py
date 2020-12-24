@@ -6,7 +6,6 @@ def binary(data, n):
 
         if mid == n:
             return True
-            break
 
         if mid > n:
             data = data[:len(data) // 2]
@@ -17,4 +16,4 @@ def binary(data, n):
     return False
 
 data = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(binary(data, 0))
+print(binary(data, 6))

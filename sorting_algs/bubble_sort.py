@@ -1,4 +1,4 @@
-data = [8,7,9,5,6,3,2,4,1]
+data = [3, 2, 4, 1, 5]
 
 for _ in range(len(data)-1):
     for i in range(len(data)-1):

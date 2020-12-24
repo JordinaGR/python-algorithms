@@ -20,5 +20,5 @@ def insertion(data):
 
     print(data)
 
-data = [4, 2, 3, 1, 5, 2, 5, 6, 7, 3, 5, 7, 8, 4]
+data = [2, 3, 4, 1, 5]
 insertion(data)
